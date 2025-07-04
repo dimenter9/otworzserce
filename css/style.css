@@ -1,0 +1,238 @@
+/* Reset i ustawienia globalne */
+body {
+  font-family: 'Segoe UI', sans-serif;
+  font-size: 1.05rem;
+  line-height: 1.7;
+  color: #333;
+}
+
+.navbar-brand img {
+  height: 50px;
+}
+
+.hero {
+  background: url('./images/babyheader.webp') no-repeat center center;
+  background-size: cover;
+  height: 100vh;
+  color: white;
+  display: flex;
+  align-items: center;
+  position: relative;
+  padding-top: 80px;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-color: rgba(0, 0, 0, 0.591);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+}
+
+.hero h1 {
+  font-weight: 700;
+  font-size: 3.5rem;
+  line-height: 1.2;
+  margin-bottom: 1rem;
+}
+
+.hero p {
+  font-size: 1.25rem;
+  line-height: 1.8;
+}
+
+#o-nas p {
+  font-size: 1.1rem;
+  line-height: 1.8;
+  color: #444;
+}
+
+#o-nas h2 {
+  font-size: 2.2rem;
+}
+
+#o-nas img {
+  object-fit: cover;
+  height: auto;
+}
+
+section h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+.btn-primary, .btn-outline-light {
+  padding: 0.6rem 1.2rem;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: hsl(212, 100%, 43%);
+}
+
+footer {
+  font-size: 0.95rem;
+  line-height: 1.6;
+}
+
+#dane p {
+  margin-bottom: 0.5rem;
+  color: #333;
+  font-size: 1.05rem;
+}
+
+#dane h5 {
+  margin-top: 2rem;
+  margin-bottom: 1rem;
+}
+
+section.text-white {
+  background-color: #000;
+  text-shadow: 0 1px 3px rgba(0,0,0,0.6);
+}
+
+.cta-section {
+  background: url('images/nasipodobieczni.webp') center center / cover no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+
+.cta-section .overlay {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.4); /* regulowana przezroczystość CTA */
+  z-index: 0;
+}
+
+.konto-bankowe-section {
+  background: url('images/moneydonate.webp') center center / cover no-repeat;
+  position: relative;
+  overflow: hidden;
+}
+
+.konto-bankowe-section .overlay {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.6); /* regulowana przezroczystość KONTA */
+  z-index: 0;
+}
+
+.cta-section .container,
+.konto-bankowe-section .container {
+  position: relative;
+  z-index: 1;
+}
+
+.cta-section h2,
+.cta-section p,
+.konto-bankowe-section h2,
+.konto-bankowe-section p {
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+.bank-header-section {
+  height: 30vh;
+  background: url('images/moneydonate.webp') no-repeat center center / cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.bank-header-section .bank-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.65); /* przyciemnienie */
+  z-index: 0;
+}
+
+.bank-header-section .container {
+  z-index: 1;
+  position: relative;
+}
+
+.kids-header-section h1 {
+  text-shadow: 0 2px 4px rgba(0,0,0,0.8);
+}
+
+.kids-header-section {
+  height: 30vh;
+  background: url('images/nasipodobieczni.webp') no-repeat center center / cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.kids-header-section .kids-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.65); /* przyciemnienie */
+  z-index: 0;
+}
+
+.kids-header-section .container {
+  z-index: 1;
+  position: relative;
+}
+
+.kids-header-section h1 {
+  text-shadow: 0 2px 4px rgba(0,0,0,0.8);
+}
+
+.aboutus-header-section h1 {
+  text-shadow: 0 2px 4px rgba(0,0,0,0.8);
+}
+
+.aboutus-header-section {
+  height: 30vh;
+  background: url('./images/documents.webp') no-repeat center center / cover;
+  position: relative;
+  overflow: hidden;
+}
+
+.aboutus-header-section .aboutus-overlay {
+  position: absolute;
+  inset: 0;
+  background-color: rgba(0, 0, 0, 0.65); /* przyciemnienie */
+  z-index: 0;
+}
+
+.aboutus-header-section .container {
+  z-index: 1;
+  position: relative;
+}
+
+.aboutus-header-section h1 {
+  text-shadow: 0 2px 4px rgba(0,0,0,0.8);
+}
+
+#podopieczni img {
+  object-fit: cover;
+  height: 250px;
+}
+
+.card h5 {
+  font-size: 1.2rem;
+}
+
+.card p {
+  font-size: 0.95rem;
+}
+
+.card .btn {
+  font-size: 0.95rem;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+}
+
+
+
